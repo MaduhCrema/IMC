@@ -89,3 +89,24 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+## **Ciclo de vida**
+- É a criação, interrupção ou retomada de uma tela ou a destruição do processo pelo sistema
+- Por exemplo onCreate(), onResume
+()
+- É um ciclo visível ou invisível.
+- É como se fosse varias funções "main"
+
+***EXEMPLO***
+![imagem](https://dariomungoi.files.wordpress.com/2015/01/basic-lifecycle.png)
+- **onCreat()**, você prepara  a tela
+- **onStart()**, você coloca os elementos visuais da tela
+- **onResume()**, agora o usuário podera interagir com a tela
+- **onPause()**, o usuário pausa a tela. que ainda está visível, na interação que ele parou
+- **onStop()**, quando a tela não está mais interativa a aplicação para.
+- **onRestart**, quando o usuário que voltar para a tela depois o onStop
+- **onDestroy()**, encerra o ciclo, e quando retorna na aplicação um novo ciclo começa
+- **finish()**, se utilizar essa função dentro de algum ciclo, ele finaliza o ciclo.
+
+## **Gradle**
+***Configura e automatiza a build/compilação***
+- **Build.gradle** é o arquivo de configuração
