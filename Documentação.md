@@ -110,3 +110,19 @@ class MainActivity : AppCompatActivity() {
 ## **Gradle**
 ***Configura e automatiza a build/compilação***
 - **Build.gradle** é o arquivo de configuração
+## **Construção de telas**
+### **Layout**
+- É uma construção de interface de usuário
+![IMAGEM](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts/en/images/1_2_C_images/dg_common_layouts_visual_rep.png)
+- ViewBinding
+
+**Layout XML**
+- Constroi a aplicação com linguagem XML
+- Organizado por ordem de Parent
+
+**Views**
+- Todo  component é uma view e toda view é clicável, se for associado alguma função, se não será uma view estática
+- Views herdam métodos, aparência, estilo e atributos de component, ou podem ser criados de maneira costumizada
+
+***Hierarquia das views***
+![imagem](https://4.bp.blogspot.com/-r7fkm4ahE1Y/WrCl9dFfGsI/AAAAAAAAQ-8/7sbIuWZ69TY-dn_Y4zYkDresu_XRLr7uACLcBGAs/s1600/cautrucview.png)
