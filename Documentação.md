@@ -111,18 +111,43 @@ class MainActivity : AppCompatActivity() {
 ***Configura e automatiza a build/compilação***
 - **Build.gradle** é o arquivo de configuração
 ## **Construção de telas**
-### **Layout**
+## **Layout**
 - É uma construção de interface de usuário
 ![IMAGEM](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts/en/images/1_2_C_images/dg_common_layouts_visual_rep.png)
 - ViewBinding
 
-**Layout XML**
+### **Layout XML**
 - Constroi a aplicação com linguagem XML
 - Organizado por ordem de Parent
 
-**Views**
+### **Tipos de Layout**
+**Linear Layout**
+- itens alinhados um após o outro horizonalmente ou verticalmente
+- Elementos não serão sobreposto
+
+## **Views**
 - Todo  component é uma view e toda view é clicável, se for associado alguma função, se não será uma view estática
 - Views herdam métodos, aparência, estilo e atributos de component, ou podem ser criados de maneira costumizada
 
 ***Hierarquia das views***
 ![imagem](https://4.bp.blogspot.com/-r7fkm4ahE1Y/WrCl9dFfGsI/AAAAAAAAQ-8/7sbIuWZ69TY-dn_Y4zYkDresu_XRLr7uACLcBGAs/s1600/cautrucview.png)
+
+#### **Atributos**
+- Gravity = Como será a gravidade dos componentes na tela, de forma geral, ou seja de pai para filho
+- Layout Gravity = Manipula a forma horizontal,vertical,esquerda ou direita, a forma qu eo filho se comportará no pai
+-----------------
+- Margin =  Distância do componente da borda do lado de fora
+- Padding = Distância do componente da borda do lado de dentro
+![imagem](https://i.stack.imgur.com/6IbSe.png)
+----------------
+- **InputType** = É para especificar o tipo de teclaod para a entrada
+- **Match_parent** = É uma propriedade que define o tamanho (altura ou largura) da view baseado no seu conteúdo, usando o máximo possível de espaço
+- **Wrap_parent** =  É uma propriedade que define o tamanho (altura ou largura) da view baseado no seu conteúdo, usando o mínimo possível de espaço
+- **dp** = Essa unidade é relativa à resolução da tela. Por exemplo se a resolução da tela é de 160 dpi, significa que um dp representa 1 pixel em um total de 160. USO: aconselho ao invés de usar o px sempre use o dp
+- **sp** =  Idem ao dp, mas também considera o tamanho da fonte que o usuário está utilizando. É recomendado que use essa unidade quando especificar o tamanho de uma fonte, para que esta seja automaticamente ajustada conforme as preferências da tela do usuário. USO: Sempre utilize sp para fontes!
+### **Ícones**
+- Pode ser alterado na pasta mipmap
+### **strings.xml**
+- Local de armazenamento das frases usadas na aplicação
+### **themes.xml**
+- Cores usadas no tema da aplicação,
