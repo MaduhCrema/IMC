@@ -1,2 +1,2 @@
 # IMC 
- - App that calculates IMD :calculate:
+ - App that calculates IMD ⚖️
