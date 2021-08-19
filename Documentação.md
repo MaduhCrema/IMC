@@ -125,9 +125,29 @@ class MainActivity : AppCompatActivity() {
 - itens alinhados um após o outro horizonalmente ou verticalmente
 - Elementos não serão sobreposto
 
+**Relative layout**
+- As posições dos componentes são relativas a outros itens ou ao pai
+- Permite sobreposições
+- Sem necessidade de layouts encadeados
+- HIerarquia complexas
+
+**Constraint Layout**
+- Baseado em restringir componentes aos limistes dos layouts ou outros componentes
+- Focado em otimização
+- é como se tivesse 4 elástico puxando o componente
+
+**Outros tipo de layout**
+- Absolute layout = na forma absoluta de x e y
+- Table layout = forma de tabela
+- Grid layout = na forma de grade, colunas x linhas
 ## **Views**
 - Todo  component é uma view e toda view é clicável, se for associado alguma função, se não será uma view estática
 - Views herdam métodos, aparência, estilo e atributos de component, ou podem ser criados de maneira costumizada
+
+## **Interação com a UI**
+### **Inputs de textos**
+- TextWatchers = Formas de callback
+- beforeTextChanged, onTextChanged, afterTextChanged
 
 ***Hierarquia das views***
 ![imagem](https://4.bp.blogspot.com/-r7fkm4ahE1Y/WrCl9dFfGsI/AAAAAAAAQ-8/7sbIuWZ69TY-dn_Y4zYkDresu_XRLr7uACLcBGAs/s1600/cautrucview.png)
