@@ -1,2 +1,2 @@
 # IMC 
- - App that calculates IMD ⚖️
+ - App that calculates IMC ⚖️
